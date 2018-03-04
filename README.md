@@ -29,9 +29,16 @@ Baixar o código fonte do projeto:
 
      git clone https://github.com/EliseuTorres/BAMSDN.git
 
-Mover os scritps mam.sh e rdm.sh para o diretorio /pox
+como root execute o script init.sh
 
-Mover as pastas MAM e RDM para o diretório pox/ext
+     $sudo ./init.sh
+
+A ação terár as seguintes conseguências:
+
+     1.Mover os scritps mam.sh e rdm.sh para o diretorio /pox
+     2.Mover as pastas MAM e RDM para o diretório pox/ext
+     3.Criar o diretorio topoligia na pasta home
+     4.Mover lab.py e scripts para a pasta topologia 
 
 Por meio de um terminal execute os scripts mam.sh ou rdm.sh para executar um dos controladores:
 
@@ -41,7 +48,7 @@ Por meio de um terminal execute os scripts mam.sh ou rdm.sh para executar um dos
 
       $sudo ./rdm.sh
 
-Em outro terminal execute a topologia lab.py
+Em outro terminal execute lab.py dentro do diretorio topologia
 
       $sudo python lab.py
 
