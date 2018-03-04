@@ -7,3 +7,6 @@ Para este esperimento foi utilizado o Mininet e o controlador POX
 
 
 https://github.com/EliseuTorres/BAMSDN.git
+
+
+https://youtu.be/BNcH2l3vwPQ
