@@ -16,7 +16,7 @@ Para a utilização do ambiente siga os seguintes passos abaixo.
 
 Baixar o código fonte do projeto.
 
-   git clone https://github.com/EliseuTorres/BAMSDN.git
+      git clone https://github.com/EliseuTorres/BAMSDN.git
 
 Mover os scritps mam.sh e rdm.sh para o diretorio /pox
 
