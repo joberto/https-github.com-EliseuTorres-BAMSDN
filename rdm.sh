@@ -1,3 +1,3 @@
-!/bin/bash
+#!/bin/bash
 
 ./pox.py RDM.rdm
