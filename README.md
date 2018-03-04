@@ -4,12 +4,13 @@
 
 Trata-se um modulo que permite a um controlador SDN, gerenciar de forma dinâcia a largura de banda das portas de saida dos switches OpenFlow através de filas de classes de tráfego. 
 
-Os  experimentos seguiram uma abordagem de emulação que reproduziram uma rede OpenFlow atraves do Mininet. Para isso, foram utilizados:         * PC Corei5, 2.9Ghz, 8GBdeRAM; 
-        * Sistema Operacional Ubuntu Server 15.04,x64, versão do kerne l3.19.0-30; 
-        * Mininet, versão 1.8r11; 
-        * Protocolo OpenFlow, versao 1.0; 
-        * Controlador OpenFlow POX, versao 0.2.0; e 
-        * Gerador de trafego iPerf3, versao 3.0.7
+Os  experimentos seguiram uma abordagem de emulação que reproduziram uma rede OpenFlow atraves do Mininet. Para isso, foram utilizados:   
+         1. PC Corei5, 2.9Ghz, 8GBdeRAM; 
+         2. Sistema Operacional Ubuntu Server 15.04,x64, versão do kerne l3.19.0-30; 
+         3. Mininet, versão 1.8r11; 
+         4. Protocolo OpenFlow, versao 1.0; 
+         5. Controlador OpenFlow POX, versao 0.2.0; e 
+         6. Gerador de trafego iPerf3, versao 3.0.7
 
 Qualquer ambiente Linux com Mininet, OpenVswitch, OpenFlow e controlador POX deve rodar esse experimento sem problemas.
 
