@@ -2,7 +2,7 @@
 ========
 
 
-Trata-se um modulo que permite a um controlador SDN, gerenciar de forma dinâcia a largura de banda das portas de saida dos switch OpenFlow através de filas de classes de tráfego. 
+Trata-se um modulo que permite a um controlador SDN, gerenciar de forma dinâcia a largura de banda das portas de saida dos switches OpenFlow através de filas de classes de tráfego. 
 
 Para este esperimento foi utilizado o Mininet e o controlador POX e o iperf3. 
 
