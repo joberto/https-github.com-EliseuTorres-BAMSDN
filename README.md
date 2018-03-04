@@ -34,7 +34,8 @@ Em outro terminal execute a topologia lab.py
 
       $sudo python lab.py
 
-No CLI do Minent digite xterm h1 h2 h3 h6
+No CLI do Mininet digite 
+     <mininet> xterm h1 h2 h3 h6
 
     O host h6 será o serividor, acesse a pasta scripts e execute todos os scripts
 
