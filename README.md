@@ -34,10 +34,11 @@ Em outro terminal execute a topologia lab.py
 
       $sudo python lab.py
 
-No CLI do Mininet digite 
+No CLI do Mininet digite
+
      <mininet> xterm h1 h2 h3 h6
 
-    O host h6 será o serividor, acesse a pasta scripts e execute todos os scripts
+O host h6 será o serividor, acesse a pasta scripts e execute todos os scripts
 
 Em h1, h2 ou h6 faça a conexão ao servidor.
 
