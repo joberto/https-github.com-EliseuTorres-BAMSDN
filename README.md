@@ -2,7 +2,7 @@
 ========
 
 
-Trata-se um modulo que permite a um controlador SDN, gerenciar de forma dinâcia a largura de banda das portas de saida dos switches OpenFlow através de filas de classes de tráfego. 
+Trata-se um modulo que permite a um controlador SDN, gerenciar de forma dinâmica a alocação de LSPs (label Switched Paths - MPLS) e suas respectivas largura de banda nas portas de saida de switches OpenFlow. O BAMSDN utiliza o limite de banda disponível (BC) das portas de saida dos switches OpenFlow por classes de tráfego (CTs). A alocação de LSPs e suas respectivas capacidades (banda alocada) é feita através de um modelo de alocação de banda (BAM) como árbitro da alocação de recurso e visa o compartilhamento e uso eficiente de recursos [1]. 
 
 Os  experimentos seguiram uma abordagem de emulação que reproduziram uma rede OpenFlow atraves do Mininet. Para isso, foram utilizados:
 
@@ -71,3 +71,8 @@ Para esse experimento dividimos as classes de trafego com as seguintes portas:
 Acesse o video para visualizar um simples teste.
 
 https://youtu.be/BNcH2l3vwPQ
+
+
+Referências;
+
+[1]E. M Oliveira, R. F. Reale, and J. S. B. Martins, “Cognitive Management of Bandwidth Allocation Models with Case-Based Reasoning - Evidences Towards Dynamic BAM Reconfiguration,” 02-2018.
